@@ -5,7 +5,7 @@ import certifi as cert
 import sys
 
 url = 'https://api.pwnedpasswords.com/range/'
-useragent = "Mozilla/5.0 (Windows NT 6.1; Win64; x64;en; rv:5.0) Gecko/20110619 Firefox/5.0"
+useragent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64;en; rv:5.0) Gecko/20110619 Firefox/5.0'
 
 if len(sys.argv) == 2:
     print('Checking Password: ', sys.argv[1])
